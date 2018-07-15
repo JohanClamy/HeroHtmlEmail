@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--  <link rel="stylesheet" href="/css/main.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <style>
+      /*desktop */
+      @media only screen and (min-device-width: 960px){
+        .container{
+          width: 960px;
+        }
+        .header-left{
+          padding: 39px 15px 70px 50px !important;
+        }
+        .lets-you-row{
+          padding: 0 50px;
+        }
+        .advance-table{
+          padding: 15px 50px 70px 50px !important;
+          background: white;
+        }
+        .one-solution-table img{
+          max-width: 611px;
+        }
+        .one-solution-table {
+          text-align: center;
+        }
+        .join-together-table .left-column{
+          padding: 20 50px !important;
+        }
+        .join-together-table .middle-column{
+          padding: 20 50px !important;
+        }
+        .join-together-table .right-column{
+          padding: 20 50px !important;
+        }
+        .detail-table{
+          padding: 50px 50px 25px !important;
+        }
+      }
+      /* midsizes */
+      @media only screen and (max-device-width: 960px){
+        .container{
+          width: 600px;
+        }
+        .header-left{
+                padding: 15px 15px 73px!important;
+        }
+      }
+      /* mobile */
+      @media only screen and (max-device-width: 600px){
+        .container{
+          width: 100%;
+        }
+        .header-left{
+          width: 100%;
+        }
+        .header-right{
+          width: 100%;
+        }
+        .lets-you-row .left-column{
+          width: 50%;
+        }
+        .lets-you-row .middle-column{
+          width: 50%;
+        }
+        .lets-you-row .right-column{
+          width: 100%;
+        }
+
+        .advance-table .left-column{
+          width: 100%;
+        }
+        .advance-table .right-column{
+          width: 100%;
+        }
+        .advance-table .right-column .right-store{
+          text-align: center;
+        }
+        .advance-table .left-column .left-store{
+          text-align: center;
+        }
+        .join-together-table .left-column{
+          width: 100%;
+        }
+        .join-together-table .middle-column{
+          width: 100%;
+        }
+        .join-together-table .right-column{
+          width: 100%;
+        }
+        .detail-table .one-row-table .left-column{
+          width: 100%;
+        }
+        .detail-table .one-row-table .right-column{
+          width: 100%;
+        }
+
+      }
+    </style>
+  </head>
+  <body style=" background-color: grey;padding:0; margin: 0;">
+    <!-- start of htmlemail -->
+    <table width="100%" border="0" cellspacing="0" cellpadding="0"> <!-- Principal table -->
+      <tr> <!--Une seule ligne -->
+        <td><!--Une seule cellule -->
+          <!-- Secondary table container -->
+          <table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0">
+              <!--Start HEADER row -->
+            <tr><!--Une seule ligne -->
+              <td><!--Une seule cellule -->
+               <!-- start left Column -->
+                <table class="header-left" width="50%" align="left" cellspacing="0" cellpadding="0" border="0"
+                style="background: #65fffd; background: -moz-linear-gradient(-45deg, #65fffd 0%, #2989d8 50%, #2296ee 100%); background: -webkit-linear-gradient(-45deg, #65fffd 0%,#2989d8 50%,#2296ee 100%);background: linear-gradient(135deg, #65fffd 0%,#2989d8 50%,#2296ee 100%); padding: 15px 15px 70px 15px;">
+                  <tr>
+                    <td style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;color:white">
+                      <img src="https://s8.postimg.cc/8hdyy205h/logo.png" alt="logo">
+                      <h2 style="padding:25px 0 10px ;font-size: 30px;margin:0; font-weight: 300; line-height: 1;">Get ready for</h2>
+                      <h1 style="font-size: 80px;margin:0; line-height: 1;padding: 0 0 10px;">Hero</h1>
+                      <p style="font-size: 14px;margin:0; line-height: 1.5;font-style:italic; padding: 20px 0 50px;">it seems like hundreds of new iWatch apps pop up every week,but which ones should you bother trying?</p>
+                      <a href="#" class="ghost-btn" style="font-size: 12px;border-radius: 3px; border: 2px solid white;text-decoration: none; color:white; padding:10px 15px; text-transform: uppercase;">Learn More</a>
+                    </td>
+                 </tr>
+                 </table>
+                 <!-- End left Column -->
+                 <!-- start right Column -->
+                 <table class="header-right" width="50%" align="right" cellspacing="0" cellpadding="0" border="0" style="background:white;">
+                   <tr>
+                     <td style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;color:#7d7d7d;">
+                       <table class="menu-table" width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 20px;">
+                         <tr>
+                           <td align="center">
+                             <a href="#" style="font-size:14px;color:#7d7d7d; text-decoration: none; font-weight:600;">About</a>
+                           </td>
+                           <td align="center">
+                             <a href="#" style="font-size:14px;color:#7d7d7d; text-decoration: none; font-weight:600;">Careers</a>
+                           </td>
+                           <td align="center">
+                             <a href="#" style="font-size:14px;color:#7d7d7d; text-decoration: none; font-weight:600;">Contact</a>
+                           </td>
+                         </tr>
+                       </table>
+                     </td>
+                   </tr>
+                   <tr>
+                     <td align="center" valign="bottom" style="padding-top:19px;"><img src="https://s8.postimg.cc/ndci5qbl1/smartwatch.png" style="position:relative; bottom: -4px;" alt="image of apple watch"></td>
+                   </tr>
+                  </table>
+                  <!-- End right Column -->
+              </td>
+            </tr>
+            <!--End HEADER row -->
+            <!--Start OF LETS YOU row -->
+            <tr>
+              <td class="lets-you-row" style="background: #fafafa;">
+                  <h3 style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; text-transform:uppercase; color:#333333; font-weight:300; font-size:24px; padding: 36px 0 5px 0;" align="center">Hero let's you...</h3>
+                  <!--Start of NOTIFY column -->
+                  <table class="left-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0"
+                  style=" padding: 15px 15px 70px 15px;">
+                      <tr>
+                        <td>
+                          <table class="title-icon" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0"
+                          style=" padding: 0;">
+                            <tr>
+                              <td><img src="https://s8.postimg.cc/eibnv3zmd/bell_icon.png" alt="image of a bell"></td>
+                              <td style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#333333; padding-left:15px; font-weight:600; text-transform:uppercase; font-size:14px;">Notify</td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#7f8887; font-weight:400; font-size:14px; line-height:1.8;">Cras mattis consectetur purus sit fermentum</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a href="#" style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#2792ec; font-weight:600;font-size:14px; text-decoration: none;">Learn More</a>
+                        </td>
+                      </tr>
+
+                   </table>
+                <!--End of Notify column -->
+                <!--Start of SHARE column -->
+                <table class="middle-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0"
+                style=" padding: 15px 15px 70px 15px;">
+                    <tr>
+                      <td>
+                        <table class="title-icon" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0"
+                        style=" padding: 0;">
+                          <tr>
+                            <td><img src="https://s8.postimg.cc/fkludqigl/share_icon.png" alt="image of share icon" class="centre"></td>
+                            <td style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;  color:#333333; padding-left:15px; font-weight:600; text-transform:uppercase; font-size:14px;">share</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;  color:#7f8887; font-weight:400; font-size:14px; line-height:1.8;">Cras mattis consectetur purus sit fermentum</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="#" style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#2792ec; font-weight:600;font-size:14px; text-decoration: none;">Learn More</a>
+                      </td>
+                    </tr>
+
+                 </table>
+              <!--End of SHARE column -->
+              <!--Start of CONNECT column -->
+              <table class="right-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0"
+              style=" padding: 15px 15px 70px 15px;">
+                  <tr>
+                    <td>
+                      <table class="title-icon" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0"
+                      style=" padding: 0;">
+                        <tr>
+                          <td><img src="https://s8.postimg.cc/6027qw3f9/wifi_icon.png" alt="wifi icon"></td>
+                          <td style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#333333; padding-left:15px; font-weight:600; text-transform:uppercase; font-size:14px;">connect</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;  color:#7f8887; font-weight:400; font-size:14px; line-height:1.8;">Cras mattis consectetur purus sit fermentum</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="#" style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#2792ec; font-weight:600;font-size:14px; text-decoration: none;">Learn More</a>
+                    </td>
+                  </tr>
+               </table>
+              </td>
+            </tr>
+            <!-- End of CONNECT column -->
+            <!--End OF LETS YOU row -->
+            <!--Start ADVANCED row -->
+            <tr>
+              <td>
+                <table class="advance-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
+                style=" padding: 15px 15px 0 15px; background:white;">
+                  <tr>
+                    <td style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; text-transform:uppercase; color:#333333; font-weight:300; font-size:24px; padding: 36px 0 5px 0;" align="center">
+                      <img src="https://s8.postimg.cc/kj9cs71o5/image_head.jpg" alt=" model with apple watch">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h3 style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; text-transform:capitalize; color:#333333; font-weight:300; font-size:24px; padding: 25px 0 5px 0; margin: 0;" align="center">World's <span style="font-weight:400;">most advanced App</span> <br> with High-Tech solutions</h3>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0"
+                      style=" padding: 15px 15px 0 15px; background:white;">
+                        <tr>
+                          <td>
+                          <p style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;  color:#7f8887; font-weight:400; font-size:14px; line-height:1.8; padding-bottom: 30px;">The Strong museum has collected more than 55,000 video games and related artifacts from the history of gaming.</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="right" class="left-store">
+                            <img src="https://s8.postimg.cc/jgz69mg9x/appstore.png" alt="logo of apple appstore">
+                          </td>
+                        </tr>
+                      </table>
+
+                      <table class="right-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0"
+                      style=" padding: 15px 15px 70px 15px; background:white;">
+                      <tr>
+                        <td>
+                        <p style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;  color:#7f8887; font-weight:400; font-size:14px; line-height:1.8; padding-bottom: 30px;">The Strong museum has collected more than 55,000 video games and related artifacts from the history of gaming.</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left"  class="right-store">
+                          <img src="https://s8.postimg.cc/ieozr5prp/playstore.png" alt="logo for android playstore">
+                        </td>
+                      </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!--End ADVANCED row -->
+            <!--Start of ONE SOLUTON row -->
+            <tr>
+              <td>
+                <table class="one-solution-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
+                style=" padding: 50px 0; background:#141414;">
+                <tr>
+                  <td>
+                    <img src="https://s8.postimg.cc/5ajfehd5h/one_app.jpg" style="width: 100%;" alt="information for the application">
+                  </td>
+                </tr>
+                </table>
+              </td>
+            </tr>
+            <!--End ONE SOLUTON  row -->
+            <!--Start of join together section row -->
+            <tr>
+              <td>
+                <table class="join-together-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
+                style=" padding: 25px 0 75px; background:white;">
+                <tr>
+                  <td>
+                    <h3 style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#333333; font-weight:300; font-size:24px; padding: 36px 0 5px 0;" align="center">Features <span style="font-weight: 400; text-transform: capitalize;">All Joined Together </span> in One App</h3>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <!-- start of colunm -->
+                    <table class="left-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0"
+                    style=" padding: 20px 0; background:white;">
+                    <tr>
+                      <td align="center">
+                        <img src="https://s8.postimg.cc/ugkdlc9at/watch_screen.png" alt="image of app">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center">
+                        <h5 style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#333333;padding: 15px 0 5px; font-weight:600; text-transform:uppercase; font-size:14px; margin: 0;">Sync</h5>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center">
+                        <p style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#7f8887; font-weight:400; font-size:14px; line-height:1.8; margin: 0; padding-bottom: 15px;">Computer manufacturer Lenovo is getting flak...</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center">
+                        <a href="#" style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#2792ec; font-weight:600;font-size:14px; text-decoration: none;">Learn More</a>
+                      </td>
+                    </tr>
+                    </table>
+                    <!-- end of colunm -->
+                    <!-- start of colunm -->
+                    <table class="middle-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0"
+                    style=" padding: 20px 0; background:white;">
+                    <tr>
+                      <td align="center">
+                        <img src="https://s8.postimg.cc/ugkdlc9at/watch_screen.png" alt="image of app">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center">
+                        <h5 style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#333333;padding: 15px 0 5px; font-weight:600; text-transform:uppercase; font-size:14px; margin: 0;">Share</h5>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center">
+                        <p style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#7f8887; font-weight:400; font-size:14px; line-height:1.8; margin: 0; padding-bottom: 15px;">Computer manufacturer Lenovo is getting flak...</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center">
+                        <a href="#" style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#2792ec; font-weight:600;font-size:14px; text-decoration: none;">Learn More</a>
+                      </td>
+                    </tr>
+                    </table>
+                    <!-- end of colunm -->
+                    <!-- start of colunm -->
+                    <table class="right-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0"
+                    style=" padding: 20px 0; background:white;">
+                    <tr>
+                      <td align="center">
+                        <img src="https://s8.postimg.cc/ugkdlc9at/watch_screen.png" alt="image of app">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center">
+                        <h5 style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#333333;padding: 15px 0 5px; font-weight:600; text-transform:uppercase; font-size:14px; margin: 0;">Stats</h5>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center">
+                        <p style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#7f8887; font-weight:400; font-size:14px; line-height:1.8; margin: 0; padding-bottom: 15px;">Computer manufacturer Lenovo is getting flak...</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center">
+                        <a href="#" style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#2792ec; font-weight:600;font-size:14px; text-decoration: none;">Learn More</a>
+                      </td>
+                    </tr>
+                    </table>
+                    <!-- end of colunm -->
+                  </td>
+                </tr>
+              </table>
+              </td>
+            </tr>
+            <!--End of join together section row -->
+            <!--Start detail row -->
+            <tr>
+              <td>
+                <table class="detail-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
+                style=" padding: 50px 0 25px; background:#fafafa;">
+                <!--Start one row table -->
+                <tr>
+                  <td>
+                    <table class="one-row-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
+                    style=" padding: 0; ">
+                    <tr>
+                      <td>
+                        <!--Start of column row -->
+                        <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0"
+                        style=" padding: 0 15px 20px; ">
+                          <tr>
+                            <td>
+                              <!--Start of icon table -->
+                              <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
+                              style="">
+                                <tr>
+                                  <td><img src="https://s8.postimg.cc/bo8ihpfgl/phone_icon.png" alt="phone icon"></td>
+                                  <td style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#333333;  font-weight:600; text-transform:uppercase; font-size:14px;">responsive layout</td>
+                                </tr>
+                              </table>
+                              <!--end of icon table -->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#7f8887; font-weight:400; font-size:14px; line-height:1.8;">
+                                Tanjin is one of nearly 2000, people to have landed on Italy's southernmost.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of column row -->
+                        <!--Start of column row -->
+                        <table class="right-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0"
+                        style=" padding: 0 15px 20px; ">
+                          <tr>
+                            <td>
+                              <!--Start of icon table -->
+                              <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
+                              style="">
+                                <tr>
+                                  <td><img src="https://s8.postimg.cc/i1xlkys2d/phone_icon-48.png" alt="phone icon"></td>
+                                  <td style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#333333;  font-weight:600; text-transform:uppercase; font-size:14px;">retina ready</td>
+                                </tr>
+                              </table>
+                              <!--end of icon table -->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#7f8887; font-weight:400; font-size:14px; line-height:1.8;">
+                                Tanjin is one of nearly 2000, people to have landed on Italy's southernmost.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of column row -->
+                      </td>
+                    </tr>
+                  </table>
+                  </td>
+                </tr>
+                <!--end one row table -->
+                <!--Start one row table -->
+                <tr>
+                  <td>
+                    <table class="one-row-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
+                    style=" padding: 0; ">
+                    <tr>
+                      <td>
+                        <!--Start of column row -->
+                        <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0"
+                        style=" padding: 0 15px 20px;  ">
+                          <tr>
+                            <td>
+                              <!--Start of icon table -->
+                              <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
+                              style="">
+                                <tr>
+                                  <td><img src="https://s8.postimg.cc/7f3sfher9/check_icon.png" alt="check icon"></td>
+                                  <td style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#333333;  font-weight:600; text-transform:uppercase; font-size:14px;">various skins</td>
+                                </tr>
+                              </table>
+                              <!--end of icon table -->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#7f8887; font-weight:400; font-size:14px; line-height:1.8;">
+                                Tanjin is one of nearly 2000, people to have landed on Italy's southernmost.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of column row -->
+                        <!--Start of column row -->
+                        <table class="right-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0"
+                        style=" padding:0 15px 20px; ">
+                          <tr>
+                            <td>
+                              <!--Start of icon table -->
+                              <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
+                              style="">
+                                <tr>
+                                  <td><img src="https://s8.postimg.cc/hcet8meo5/settings_icon.png" alt="setting icon"></td>
+                                  <td style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#333333;  font-weight:600; text-transform:uppercase; font-size:14px;">great performance</td>
+                                </tr>
+                              </table>
+                              <!--end of icon table -->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#7f8887; font-weight:400; font-size:14px; line-height:1.8;">
+                                Tanjin is one of nearly 2000, people to have landed on Italy's southernmost.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of column row -->
+                      </td>
+                    </tr>
+                  </table>
+                  </td>
+                </tr>
+                <!--end one row table -->
+                <!--Start one row table -->
+                <tr>
+                  <td>
+                    <table class="one-row-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
+                    style=" padding: 0; ">
+                    <tr>
+                      <td>
+                        <!--Start of column row -->
+                        <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0"
+                        style=" padding: 0 15px 20px; ">
+                          <tr>
+                            <td>
+                              <!--Start of icon table -->
+                              <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
+                              style="">
+                                <tr>
+                                  <td><img src="https://s8.postimg.cc/5natkml4l/menu_icon.png" alt="menu icon"></td>
+                                  <td style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#333333;  font-weight:600; text-transform:uppercase; font-size:14px;">user friendly menus</td>
+                                </tr>
+                              </table>
+                              <!--end of icon table -->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#7f8887; font-weight:400; font-size:14px; line-height:1.8;">
+                                Tanjin is one of nearly 2000, people to have landed on Italy's southernmost.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of column row -->
+                        <!--Start of column row -->
+                        <table class="right-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0"
+                        style=" padding:0 15px 20px; ">
+                          <tr>
+                            <td>
+                              <!--Start of icon table -->
+                              <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
+                              style="">
+                                <tr>
+                                  <td><img src="https://s8.postimg.cc/fkludqigl/share_icon.png" alt="share icon"></td>
+                                  <td style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#333333;  font-weight:600; text-transform:uppercase; font-size:14px;">social share</td>
+                                </tr>
+                              </table>
+                              <!--end of icon table -->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#7f8887; font-weight:400; font-size:14px; line-height:1.8;">
+                                Tanjin is one of nearly 2000, people to have landed on Italy's southernmost.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of column row -->
+                      </td>
+                    </tr>
+                  </table>
+                  </td>
+                </tr>
+                <!--end one row table -->
+              </table>
+              </td>
+            </tr>
+            <!--End detail row -->
+            <!--Start of interest row -->
+            <tr>
+              <td>
+                <table class="interest-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
+                style="background: #65fffd; background: -moz-linear-gradient(-45deg, #65fffd 0%, #2989d8 50%, #2296ee 100%); background: -webkit-linear-gradient(-45deg, #65fffd 0%,#2989d8 50%,#2296ee 100%);background: linear-gradient(135deg, #65fffd 0%,#2989d8 50%,#2296ee 100%); padding: 75px ;">
+              <tr>
+                <td align="center">
+                  <h3 style="font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; text-transform:capitalize; color:white; font-weight:300; font-size:24px; padding: 0 0 35px 0; margin: 0;" align="center">Interest in our App</h3>
+                  <p style="font-size: 14px;margin:0; line-height: 1.5;font-style:italic; padding: 0 0 50px; color:white; max-width: 400px;">Muriel bowser's administration says move is unrelated to charges that encryption caused in metro.</p>
+                  <a href="#" class="ghost-btn" style="font-size: 12px;border-radius: 2px; border: 2px solid white;text-decoration: none; color:white; padding:7px 13px; text-transform: uppercase; font-weight: 600;">request a quote</a>
+                </td>
+                </tr>
+                  </table>
+              </td>
+            </tr>
+            <!--End of interest row -->
+            <!--Start footer row -->
+            <tr>
+              <td>
+                <table class="footer-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
+                style="padding: 25px 0 0;background:white;">
+                <tr>
+                  <td align="center">
+                    <h2 style="font-weight: 700;font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#1b1b1b; text-transform:uppercase; font-size: 28px;">Hero</h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table class="icon-table" width="250px" align="center" cellspacing="0" cellpadding="0" border="0"
+                    style="">
+                    <tr>
+                      <td align="center">
+                      <a href="#"><img src="https://s8.postimg.cc/6pl0381dx/twitter_icon.png" alt="twitter icon"></a>
+                      </td>
+                      <td align="center">
+                        <a href="#"><img src="https://s8.postimg.cc/hp67eqccl/facebook_icon.png" alt="facebook icon"></a>
+                      </td>
+                      <td align="center">
+                      <a href="#"><img src="https://s8.postimg.cc/z2ghtln39/google_icon.png" alt="google icon"></a>
+                      </td>
+                      <td align="center">
+                        <a href="#"><img src="https://s8.postimg.cc/y06bb3u05/pinterest_icon.png" alt="pinterest icon"></a>
+                      </td>
+                      <td align="center">
+                      <a href="#"><img src="https://s8.postimg.cc/utbrrg6z9/linkedin_icon.png" alt="linkedin icon"></a>
+                      </td>
+                      <td align="center">
+                        <a href="#"><img src="https://s8.postimg.cc/aypq5fexx/youtube_icon.png" alt="youtube icon"></a>
+                      </td>
+                    </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <p style=" padding:20px 0; font-family: 'Open Sans','Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:#7f8887; font-weight:400; font-size:10px; line-height:1.8;"> 20XX all rights Reserved -Yourcompagny.Is your inbox overfowing? <a href="#" style="color:#2792ec">Unsubscribe</a></p>
+                  </td>
+                </tr>
+               </table>
+              </td>
+            </tr>
+            <!--End footer row -->
+          </table>
+            <!--End Secondary table container -->
+         </td>
+      </tr>
+    </table>
+    <!-- end of htmlemail -->
+  </body>
+</html>
